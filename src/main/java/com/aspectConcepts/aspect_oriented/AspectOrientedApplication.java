@@ -8,7 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 @EnableAspectJAutoProxy
-@ComponentScan(basePackages = "com.aspectConcepts.aspect-oriented")
+@ComponentScan(basePackages = "com.aspectConcepts.aspect_oriented")
 @PropertySource("classpath:application.properties")
 public class AspectOrientedApplication {
 
